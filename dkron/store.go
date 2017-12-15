@@ -274,7 +274,7 @@ func (s *Store) GetLastExecutionGroup(jobName string) ([]*Execution, error) {
 	if err != nil {
 		return nil, err
 	}
-	if len(res) == 0{
+	if len(res) == 0 {
 		return []*Execution{}, nil
 	}
 

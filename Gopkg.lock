@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  branch = "default"
-  name = "bitbucket.org/kardianos/osext"
-  packages = ["."]
-  revision = "816c96ec6fef6a0cd72c9395d192c4bd0d918753"
-
-[[projects]]
   name = "github.com/DataDog/datadog-go"
   packages = ["statsd"]
   revision = "0ddda6bee21174ef6c4873647cb0d6ec9cba996f"
@@ -190,7 +184,8 @@
 [[projects]]
   name = "github.com/hashicorp/serf"
   packages = ["coordinate","serf","testutil"]
-  version = "v0.8.1"
+  revision = "0df3e3df1703f838243a7f3f12bf0b88566ade5a"
+  version = "v0.7.0"
 
 [[projects]]
   branch = "master"
@@ -203,6 +198,12 @@
   packages = ["."]
   revision = "a62870b0c368c3c29de27027be67d855e308cc37"
   version = "v2.2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/kardianos/osext"
+  packages = ["."]
+  revision = "ae77be60afb1dcacde03767a8c37337fad28ac14"
 
 [[projects]]
   name = "github.com/magiconair/properties"
@@ -323,6 +324,12 @@
   revision = "f1f1a805ed361a0e078bb537e4ea78cd37dcf065"
 
 [[projects]]
+  name = "github.com/victorcoder/dkron"
+  packages = ["cron","dkron","dkron/multitemplate","plugin"]
+  revision = "caf9052d73c935f7bf4a52cca2227105d931f827"
+  version = "v0.9.4"
+
+[[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
@@ -359,6 +366,12 @@
   version = "v1.7.0"
 
 [[projects]]
+  name = "gopkg.in/gin-gonic/gin.v1"
+  packages = ["."]
+  revision = "d459835d2b077e44f7c9b453505ee29881d5d12d"
+  version = "v1.2"
+
+[[projects]]
   name = "gopkg.in/go-playground/validator.v8"
   packages = ["."]
   revision = "5f1438d3fca68893a817e4a66806cea46a9e4ebf"
@@ -373,6 +386,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2bcce33a49a905258a484bed5395a5f0544bba99c7e82d8d41286bfd297d5ac4"
+  inputs-digest = "0e64eb0fc4aecf1992f02be34d550c4f19c5071ac9db03d450bc8567951d3c98"
   solver-name = "gps-cdcl"
   solver-version = 1
